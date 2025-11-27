@@ -181,9 +181,3 @@ def main_menu():
         elif pilih == "4":
             print(f"{Fore.BLUE}Terima kasih telah menggunakan sistem.{Style.RESET_ALL}")
             break
-
-if __name__ == "__main__":
-    try:
-        main_menu()
-    except KeyboardInterrupt:
-        print(f"\n{Fore.YELLOW}Program dihentikan.{Style.RESET_ALL}")
